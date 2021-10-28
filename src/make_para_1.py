@@ -355,7 +355,7 @@ def exec_gjf(auto_dir, monomer_name, params_dict, machine_type,isInterlayer,isTe
     xyz_list1 = make_xyzfile1(monomer_name,params_dict)
     with open(xyz_path1,'w') as f:
         f.writelines(xyz_list1)
-    xyz_list2 = make_xyzfile1(monomer_name,params_dict)
+    xyz_list2 = make_xyzfile2(monomer_name,params_dict)
     with open(xyz_path2,'w') as f:
         f.writelines(xyz_list2)
 
